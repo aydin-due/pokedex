@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Pokedex</title>
+  </head>
+
+  <body>
+    <div id="text">
+      <h1>Pokedex</h1>
+    </div>
+
+    <div id="search">
+      <label for="">Introduce el nombre o numero del pokemon:</label>
+      <!--   <select id="srcOption" name="srcOption">
+        <option value="name">Nombre</option>
+        <option value="num">Numero</option>
+      </select>
+-->
+      <input type="text" placeholder="Introduce el nombre/numero" name="pokeName" id="pokeName" />
+      <button onclick="getOption()">Buscar</button>
+    </div>
+
+    <div id="img">
+      <img id="dex" src="img/pokedex-2.png" id="dex" alt="" />
+      <img id="pokeImg" src="img/pkball.gif" id="pokeImg" alt="" />
+    </div>
+    <div id="results">
+      <label for="" id="pName">Nombre: </label>
+      <label for="" id="pType">Tipo/s: </label>
+      <label for="" id="pPS">PS: </label>
+      <label for="" id="pAtk">ATK: </label>
+      <label for="" id="pDef">DEF: </label>
+      <label for="" id="pSpAtk">SP.ATK: </label>
+      <label for="" id="pSpDef">SP.DEF: </label>
+      <label for="" id="pSpeed">SP: </label>
+      <label for="">Moves: </label
+      ><select name="Moves" id="pMoves"></select>
+    </div>
+  </body>
+
+  <footer>
+    <script src="script.js" type="text/javascript"></script>
+  </footer>
+</html>
